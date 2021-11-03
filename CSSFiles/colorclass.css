@@ -1,0 +1,24 @@
+:root{
+    --web_bg_color: rgb(147, 153, 130);
+    --primary_color:#000000;
+    --start_page:rgba(6, 6, 250, 0.808);
+    --btn_bg_color1:rgba(168, 74, 206, 0.534);
+    --btn_bg_color2:rgba(0, 0, 255, 0.322);
+    --btn_bg_hover:rgba(212, 97, 97, 0.459);
+    --btn_bg_hover1:rgba(202, 202, 52, 0.596);
+    --btn_border:rgba(189, 56, 23, 0.774);
+    --hover_color:rgb(102, 255, 0);
+    --email:rgb(224, 64, 64);
+    --yellow:rgb(241, 175, 50);
+}
+
+/* Classes for web */
+.web_bg_color{
+    background: var(--web_bg_color);
+}
+.header_bg{
+    background: var(--primary_color);
+}
+.text_about{
+    color: var(--hover_color) !important;
+}

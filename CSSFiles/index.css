@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital@1&display=swap');
+@import url('/CSSFiles/colorclass.css');
+*{
+    font-family:Barlow;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    text-decoration: none !important;
+    color: white;
+  }
+  
+  .container a:hover{
+    color: var(--hover_color) !important;
+  }
+  .container li:hover{
+    color: var(--email) !important;
+  }
+  .heading{
+    text-align: center;
+    background: var(--yellow);
+    border: 0.01rem solid var(--hover_color);
+    border-radius: 0.5rem;
+  }
+  .content_btn {
+    border: none;
+    width: 10rem;
+    background: var(--start_page);
+    border: 0.1rem solid rgb(101, 101, 241);
+    border-radius: 0.5rem;
+  }
+
+  .card a{
+    color: white;
+  }
+  .footer_text{
+    font-size: 1.2rem;
+    letter-spacing: 0.06rem;
+    border-radius: 1rem;
+  }
+  
